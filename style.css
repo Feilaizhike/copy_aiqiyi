@@ -8,7 +8,7 @@ img,input{border:none;}
 
 
 /* header */
-.header {width: 100%; height: 60px;background-color: #222;border-bottom: 1px solid #292929;z-index: 8000;}
+.header {width: 100%;min-width:1200px; height: 60px;background-color: #222;border-bottom: 1px solid #292929;z-index: 8000;}
 .fade_in{top:0;position:fixed;display:none; animation: myFadein 3s infinite ;animation-iteration-count:1;}
 @-webkit-keyframes myFadein {
     0%{opacity: 0;}
@@ -86,7 +86,7 @@ img,input{border:none;}
 
 
 /*½¹µãÂÖ²¥Í¼*/
-.container_focus{width: 100%;height:520px;background-color: #101010;z-index: 0;position: relative;overflow: hidden;cursor: pointer;}
+.container_focus{width: 100%;min-width:1200px;height:520px;background-color: #101010;z-index: 0;position: relative;overflow: hidden;cursor: pointer;}
 .container_focus_list{width: 16188px;height: 410px;position: absolute;z-index: 1;padding-bottom: 10px;}
 .container_focus_list img{float: left;width: 1349px; height: 410px;}
 .container_focus_body{width: 1200px; height: 410px; margin: auto;}
